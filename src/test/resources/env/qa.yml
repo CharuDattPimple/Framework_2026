@@ -1,0 +1,9 @@
+application:
+  url: https://rahulshettyacademy.com/client
+
+credentials:
+  username: ironman007@gmail.com
+  password: Hello123
+
+timeout:
+  explicitWait: 10

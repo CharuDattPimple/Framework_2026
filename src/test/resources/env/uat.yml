@@ -1,0 +1,9 @@
+application:
+  url: https://rahulshettyacademy.com/client/#/auth/login
+
+credentials:
+  username: anshika@gmail.com
+  password: Iamking@000
+
+timeout:
+  explicitWait: 10
