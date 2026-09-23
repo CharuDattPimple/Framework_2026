@@ -12,7 +12,6 @@ public class LoginStepDefinitions {
     @Given("User logs into application")
     public void user_logs_into_application() {
 
-        loginPage.login(ConfigReader.getUsername(), ConfigReader.getPassword()
-        );
+        loginPage.login(ConfigReader.getUsername(), ConfigReader.getPassword());
     }
 }

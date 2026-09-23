@@ -14,10 +14,13 @@ public class HomePage extends BasePage {
 
     private By cartBtn = By.cssSelector("[routerlink='/dashboard/cart']");
 
+
+
+
     private By spinner = By.cssSelector("#toast-container");
 
     public void addProductToCart(String productName) {
-
+        waitUtil.waitForPageToLoad();
         waitUtil.waitForAllElementsVisible(products);
 
         List<WebElement> productList = driver.findElements(products);

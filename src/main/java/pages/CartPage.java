@@ -12,8 +12,9 @@ public class CartPage extends BasePage {
     private By checkoutBtn = By.cssSelector(".totalRow button");
 
     public boolean verifyProductInCart(String productName) {
-
+        waitUtil.waitForPageToLoad();
         waitUtil.waitForElementVisible(cartProducts); // or create a visibility wait method
+
         List<WebElement> products = driver.findElements(cartProducts);
 
 
